@@ -1,5 +1,5 @@
 CFLAGS=-c -Wall -O2
-LIBS = -lm -lbme280 -lpthread
+LIBS = -lm -lbme280 -lpthread -lpaho-mqtt3c
 
 all: bmetest
 
